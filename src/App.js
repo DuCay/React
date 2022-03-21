@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+let clickOnButton=(name)=>{
+  alert('Вы нажали на кнопку:'+name)
+}
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={()=>clickOnButton('user')} className='App-button'>Кнопка</button>
       </header>
     </div>
   );

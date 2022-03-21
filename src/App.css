@@ -12,6 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.App-button {
+  border: 1px solid rgb(49, 83, 196);
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+}
+.App-button:hover {
+  border: 2px solid rgb(49, 83, 196);
+  background-color: rgb(151, 182, 240);
+}
 
 .App-header {
   background-color: #282c34;
