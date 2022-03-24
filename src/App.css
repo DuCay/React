@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  max-width: fit-content;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.button {
+  border: 1px solid rgb(49, 83, 196);
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 5px 5px 5px 5px;
+}
+.button:hover {
+  border: 2px solid rgb(49, 83, 196);
+  background-color: rgb(151, 182, 240);
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './button.jsx';
+import ButtonList from '/home/alexeydemin/Рабочий стол/React/my-app/src/components/Button.jsx';
+import styles from '/home/alexeydemin/Рабочий стол/React/my-app/src/styles/buttonList.module.css'
 let clickOnButton=(name)=>{
   alert(`Вы нажали на кнопку:${name}`)
 }
@@ -21,7 +22,7 @@ function App() {
           Learn React
         </a>
         <>
-          <Button text='Кнопка' onClick={()=>clickOnButton('user')}/>
+          <ButtonList className={styles.button} text='Кнопка' onClick={()=>clickOnButton('user')}/>
         </>
       </header>
     </div>
